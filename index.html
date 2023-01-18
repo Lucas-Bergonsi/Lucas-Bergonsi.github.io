@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <title>Portfolio Lucas Bergonzi</title>
+      <link rel="icon" type="image/png" href="logo2.png"/>
+      <link rel="stylesheet" href="index.css">
+   </head>
+   <body>
+      <!-- Conteúdo -->
+      <a href="https://www.linkedin.com/in/lucas-bergonsi/" class="logo" target="_blank">
+      <img src="logo.png" alt="">
+      </a>
+      <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+      <label for="menu-icon"></label>
+      <nav class="nav">
+         <ul class="pt-5">
+            <li>
+               <a href="./works/works.html">Works</a>
+            </li>
+            <li>
+               <a href="./education/education.html">Education and Work Experience</a>
+            </li>
+            <li>
+               <a href="#">News</a>
+            </li>
+            <li>
+               <a href="./contact/contact.html">Contact</a>
+            </li>
+         </ul>
+      </nav>
+      <div class="section-center">
+         <main class="container">
+            <div class="text-front">Hello, I'm</div>
+            <section class="animation">
+               <div class="first">
+                  <div class="text-front">Lucas Bergonzi</div>
+               </div>
+               <div class="second">
+                  <div class="text-front">Physicist</div>
+               </div>
+               <div class="third">
+                  <div class="text-front">Systems Engineer</div>
+               </div>
+            </section>
+         </main>
+      </div>
+      <header class="header">
+         <!-- The video -->
+         <video autoplay muted loop id="myVideo">
+            <source src="vista.mp4" type="video/mp4">
+         </video>
+         <!-- Optional: some overlay text to describe the video -->
+         <div class="content">
+            <!-- Use a button to pause/play the video with JavaScript -->
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+         </div>
+      </header>
+      <div class="segunda-parte">
+         <div class="container2">
+            <div class="box">
+               <input type="radio" id="duck" name="image" value="duck">
+               <label for="duck" class="img-card img1"></label>
+               <span>Effect</span>
+            </div>
+            <div class="box">
+               <input type="radio" id="duc" name="image" value="duc">
+               <label for="duc" class="img-card img2"></label>
+               <span>Effect</span>
+            </div>
+            <div class="box">
+               <input type="radio" id="du" name="image" value="du">
+               <label for="du" class="img-card img3"></label>
+               <span>Effect</span>
+            </div>
+            <div class="box">
+               <input type="radio" id="d" name="image" value="d">
+               <label for="d" class="img-card img4"></label>
+               <span>Effect</span>
+            </div>
+         </div>
+      </div>
+      <div class="terceira-parte" id="bib">
+         <h1 class="fonte-sec" >Biography</h1>
+         <div class="center ">
+            <table>
+               <tr>
+                  <td>
+                     <img src="eu.jpeg" alt="fotopessoal" style="width:300px">	
+                  </td>
+                  <td>
+                     <p align="justify" class="text-info recuo"> Lucas Bergonzi é mestre em Física e entusiasta de Engenharia Mecânica. Atualmente estuda linguagens de programação para aplicações em
+                        física e engenharia. 
+                     </p>
+                     <p align="justify" class="text-info recuo"> Iniciou seus estudos na Escola Técnica Parobé no curso técnico de mecânica. Posteriormente, cursou a gradução em física na Universidade
+                        Federal de Santa Maria, concluindo em 2018. A obtenção deste título foi seguido da pós-gradução em física pelas Universidade Fedral de Pelotas, onde se especializou em física de filmes filnos e instrumentação cientifica.
+                     </p>
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <button onclick="topFunction()" id="myBtntop" title="Go to top">Top</button>
+      <script src="index.js"></script>
+   </body>
+</html>
